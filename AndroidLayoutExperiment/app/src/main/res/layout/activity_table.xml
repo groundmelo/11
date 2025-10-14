@@ -6,13 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:stretchColumns="1"> <!-- 第2列（菜单文字）拉伸，占满剩余宽度（文档隐含需求） -->
+    android:stretchColumns="1">
 
-    <!-- 第1行：标题行（文档要求跨3列居中，文本Hello TableLayout） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"> <!-- 与下方菜单间距 -->
+        android:layout_marginBottom="24dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -21,18 +20,15 @@
             android:textSize="24sp"
             android:textColor="@android:color/black"
             android:layout_span="3"
-            android:gravity="center_horizontal"/> <!-- 水平居中（文档要求） -->
+            android:gravity="center_horizontal"/>
     </TableRow>
 
-    <!-- 第2行：Open...菜单（文档要求带Ctrl-O快捷键，无图标） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="8dp"> <!-- 行上下间距 -->
+        android:layout_marginVertical="8dp">
 
-        <!-- 第1列：空视图占位（与有图标行对齐，文档隐含需求） -->
 
-        <!-- 第2列：菜单文字（文档指定Open...） -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,17 +36,16 @@
             android:textSize="18sp"
             android:textColor="@android:color/black"/>
 
-        <!-- 第3列：快捷键（文档指定Ctrl-O） -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ctrl-O"
             android:textSize="16sp"
             android:textColor="@android:color/darker_gray"
-            android:layout_marginStart="150dp"/> <!-- 与菜单文字间距 -->
+            android:layout_marginStart="150dp"/>
     </TableRow>
 
-    <!-- 第3行：Save...菜单（文档要求带Ctrl-S快捷键，无图标） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,7 +69,6 @@
         android:layout_marginStart="150dp"/>
     </TableRow>
 
-    <!-- 第4行：Save As....菜单（文档要求带Ctrl-Shift-s快捷键，无图标） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -98,21 +92,20 @@
             android:textSize="16sp" />
     </TableRow>
 
-    <!-- 第5行：Import...菜单（文档要求带X图标、Ctrl-E快捷键） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
-        android:gravity="center_vertical"> <!-- 行内元素垂直居中 -->
+        android:gravity="center_vertical">
 
-        <!-- 第1列：X图标（文档要求，使用系统图标无需额外资源） -->
+
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@android:drawable/ic_menu_close_clear_cancel"
-        android:layout_marginEnd="1dp"/> <!-- 与菜单文字间距 -->
+        android:layout_marginEnd="1dp"/>
 
-        <!-- 第2列：菜单文字（文档指定Import...） -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -120,10 +113,9 @@
             android:textSize="18sp"
             android:textColor="@android:color/black"/>
 
-        <!-- 第3列：快捷键（文档指定Ctrl-E） -->
+
     </TableRow>
 
-    <!-- 第6行：Export...菜单（文档要求带X图标，无快捷键） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -151,18 +143,15 @@
             android:textColor="@android:color/darker_gray"
             android:textSize="16sp" />
 
-        <!-- 无快捷键，空视图占位（文档要求） -->
 
     </TableRow>
 
-    <!-- 第7行：Quit菜单（文档要求带图标，无快捷键） -->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center_vertical">
 
-        <!-- 图标（文档要求，用系统图标占位，可替换为Q图标） -->
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
@@ -176,7 +165,6 @@
         android:textSize="18sp"
         android:textColor="@android:color/black"/>
 
-        <!-- 无快捷键，空视图占位（文档要求） -->
 
     </TableRow>
 
