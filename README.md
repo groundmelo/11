@@ -197,6 +197,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
         return super.onOptionsItemSelected(item);
     }
 }
+}
 ```
    
 ### 4. MainActivity4 - ListView 多选模式
