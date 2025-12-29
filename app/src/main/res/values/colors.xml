@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color> <!-- 默认黑色 -->
+    <color name="red">#FF0000</color>   <!-- 新增红色（对应文档需求） -->
+</resources>

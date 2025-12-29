@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">  <!-- 内边距：避免控件紧贴对话框边缘 -->
+
+    <!-- 1. Username输入框（匹配文档“Username”提示） -->
+<EditText
+android:id="@+id/et_username"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Username"
+    android:inputType="textPersonName"
+    android:layout_marginBottom="12dp"/>  <!-- 与下方密码框的间距 -->
+
+    <!-- 2. Password输入框（匹配文档“Password”提示） -->
+<EditText
+android:id="@+id/et_password"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Password"
+    android:inputType="textPassword"
+    android:layout_marginBottom="20dp"/>  <!-- 与下方按钮的间距 -->
+
+    <!-- 3. 按钮布局（水平排列Cancel和Sign in，匹配文档右侧对齐样式） -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="end">  <!-- 按钮靠右对齐 -->
+
+<!-- Cancel按钮（匹配文档“Cancel”文本） -->
+<Button
+    android:id="@+id/btn_cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cancel"
+    android:layout_marginEnd="10dp"/>  <!-- 与Sign in按钮的间距 -->
+
+<!-- Sign in按钮（匹配文档“Sign in”文本） -->
+<Button
+    android:id="@+id/btn_sign_in"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sign in"/>
+</LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 列表视图，占满整个屏幕 -->
+    <ListView
+        android:id="@+id/lv_animal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+    android:dividerHeight="1dp"/>  <!-- 分割线高度 -->
+
+</LinearLayout>
