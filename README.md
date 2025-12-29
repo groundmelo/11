@@ -53,7 +53,10 @@ AndroidLayoutExperiment是一个用于演示和学习Android不同布局类型�
 2. **ConstraintLayout（约束布局）**
    - 基于约束关系的灵活布局
    - 多种约束条件的应用
+   - 效果图
+
    ![ConstraintActivity1](screenshots/ConstraintActivity1.png)
+   
    ![ConstraintActivity](screenshots/ConstraintActivity.png)
    
    **核心代码示例：**
@@ -87,6 +90,8 @@ AndroidLayoutExperiment是一个用于演示和学习Android不同布局类型�
 3. **TableLayout（表格布局）**
    - 表格形式的布局结构
    - 行列组织方式
+   - 效果图
+   
    ![TableActivity](screenshots/TableActivity.png)
    
    **核心代码示例：**
