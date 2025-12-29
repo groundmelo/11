@@ -8,19 +8,19 @@
       <SelectionState runConfigName="LinearActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="TableActivity">
+      <SelectionState runConfigName="Constraint1Activity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Constraint1Activity">
+      <SelectionState runConfigName="LinearActivity (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="ConstraintActivity (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Constraint1Activity (2)">
+      <SelectionState runConfigName="TableActivity (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="LinearActivity (1)">
+      <SelectionState runConfigName="ConstraintActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

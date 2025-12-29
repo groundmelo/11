@@ -2,9 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">      <!-- 关联对应的Activity -->
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tv_title"
@@ -16,7 +17,7 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
-    android:layout_marginTop="20dp" />  <!-- 顶部间距，推荐用dp单位 -->
+    android:layout_marginTop="20dp" />
 
     <ImageView
         android:id="@+id/iv_worm"
@@ -29,7 +30,7 @@
     android:layout_marginStart="30dp"
     android:layout_marginTop="30dp" />
 
-    <!-- “One Way”文本 -->
+
     <TextView
         android:id="@+id/tv_one_way"
         android:layout_width="wrap_content"
@@ -40,7 +41,7 @@
     app:layout_constraintStart_toEndOf="@id/iv_worm"
     android:layout_marginStart="20dp" />
 
-    <!-- “1 Traveller”文本 -->
+
     <TextView
         android:id="@+id/tv_traveller"
         android:layout_width="wrap_content"
@@ -52,7 +53,7 @@
     app:layout_constraintStart_toStartOf="@id/tv_one_way"
     android:layout_marginTop="8dp" />
 
-    <!-- 第一个DEPART按钮 -->
+
     <Button
         android:id="@+id/btn_depart1"
         android:layout_width="0dp"
@@ -68,16 +69,21 @@
     android:layout_marginTop="40dp"
     android:layout_marginEnd="10dp" />
 
-    <!-- 第二个DEPART按钮 -->
+
     <Button
         android:id="@+id/btn_depart2"
-        android:layout_width="166dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF5722"
         android:text="DEPART"
         android:textColor="@android:color/white"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="203dp" />
-    <!-- 后续将在此处添加视图元素 -->
+        app:layout_constraintTop_toBottomOf="@id/iv_worm"
+        app:layout_constraintStart_toEndOf="@id/btn_depart1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="10dp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>

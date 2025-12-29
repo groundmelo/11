@@ -172,7 +172,6 @@
         app:layout_constraintStart_toStartOf="@id/tv_one_way"
         android:layout_marginTop="8dp" />
 
-    <!-- 第一个DEPART按钮 -->
     <Button
         android:id="@+id/btn_depart1"
         android:layout_width="259dp"

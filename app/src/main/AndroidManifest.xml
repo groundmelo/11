@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLayoutExperiment">
         <activity
-            android:name=".ConstraintActivity"
+            android:name=".Constraint1Activity"
             android:exported="true" />
         <activity
-            android:name=".Constraint1Activity"
+            android:name=".ConstraintActivity"
             android:exported="true" />
         <activity
             android:name=".TableActivity"
